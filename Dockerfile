@@ -1,4 +1,4 @@
-FROM nginx
+FROM library/nginx
 ADD cloudfleet.conf /etc/nginx/conf.d/default.conf
 ADD nginx.conf /etc/nginx/nginx.conf
 ADD mime.types /etc/nginx/mime.types
